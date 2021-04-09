@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #000000;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.destaque {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-destacado {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.curriculo {
+  width: 700px;
+  height: auto;
+  display: flex;
+  margin: 20px auto;
+}
+
+.curriculo .curriculo-esquerda {
+  width: 500px;
+  background-image: linear-gradient(#000000, #FFFFFF)
+}
+
+.curriculo .curriculo-esquerda .curriculo-conteudo {
+  width: 100%;
+  height: 280px;
+}
+
+.curriculo .curriculo-esquerda .curriculo-perfil img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.curriculo .curriculo-esquerda .curriculo-conteudo {
+  padding: 0 25px;
+}
+
+.curriculo .titulo {
+  margin-bottom: 20px;
+}
+
+.curriculo .curriculo-esquerda .destaque {
+  color: #fff;
+}
+
+.curriculo .curriculo-esquerda .regular {
+  color: #000000		;
+}
+
+.curriculo .curriculo-item {
+  padding: 25px 0;
+  border-bottom: 2px solid #000000		;
+}
+
+.curriculo .curriculo-esquerda .curriculo-item:last-child,
+.curriculo .curriculo-direita .curriculo-item:last-child {
+  border-bottom: 0px;
+}
+
+.curriculo .curriculo-esquerda ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.curriculo .curriculo-esquerda ul li:last-child {
+  margin-bottom: 0;
+}
+
+.curriculo .curriculo-esquerda ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #000000;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.curriculo .icon i,
+.curriculo .curriculo-direita .curriculo-atividades ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.curriculo .curriculo-esquerda ul li .data {
+  color: #000000;
+}
+
+.curriculo .curriculo-esquerda .curriculo-linguagem ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #000000;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.curriculo .curriculo-esquerda .curriculo-linguagem ul li .skill_name {
+  width: 25%;
+}
+
+.curriculo .curriculo-esquerda .curriculo-linguagem ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #000000;
+  position: relative;
+}
+
+.curriculo .curriculo-esquerda .curriculo-linguagem ul li .skill_per {
+  width: 15%;
+}
+
+.curriculo .curriculo-esquerda .curriculo-linguagem ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.curriculo .curriculo-esquerda .curriculo-social .meio-destacado {
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+.curriculo .curriculo-direita {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.curriculo .curriculo-direita .destaque {
+  color: #0bb5f4;
+}
+
+.curriculo .curriculo-direita .curriculo-experiencia ul,
+.curriculo .curriculo-direita .curriculo-formacao ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.curriculo .curriculo-direita ul li {
+  position: relative;
+}
+
+.curriculo .curriculo-direita ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.curriculo .curriculo-direita ul li .info {
+  margin-bottom: 20px;
+}
+
+.curriculo .curriculo-direita ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.curriculo .curriculo-direita .curriculo-experiencia ul li:before,
+.curriculo .curriculo-direita .curriculo-formacao ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.curriculo .curriculo-direita .curriculo-experiencia ul li:after,
+.curriculo .curriculo-direita .curriculo-formacao ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+
+.curriculo .curriculo-direita .curriculo-atividades ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.curriculo .curriculo-direita .curriculo-atividades ul li i {
+  font-size: 30px;
+}
+
+
+
+
